@@ -1,8 +1,8 @@
-## Quiz: Reviewing JavaScript Inheritance
+## Quiz: Reviewing JavaScript Prototypal Inheritance
 
 ???
 
-# Reviewing JavaScript Inheritance
+# Reviewing JavaScript Prototypal Inheritance
 
 ?: What is the native object orientation model of JavaScript?
 
