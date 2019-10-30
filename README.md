@@ -24,7 +24,7 @@ function Dog(name){ this.name = name}
 
 Which we can assume to be assigned to `let b = new Dog(“Byron”)`.
 
-Which code sample below would add a method called `bark()` to the prototype that returns “Byron says bark”?
+Which code sample below would add a method called `bark()` to the prototype that, when invoked with `b.bark()`, returns “Byron says bark”?
 
 ( )
 ```javascript
@@ -40,7 +40,7 @@ b.prototype = () => console.log(`${this.name} says bark`)
 ````
 (X) 
 ```javascript
-Dog.prototype.bark =  () => console.log(`${this.name} says bark`)
+Dog.prototype.bark = function(){ console.log(`${this.name} says bark`) }
 ```
 
 ?: Given the following code, how many definitions of `razzle()` exist?
